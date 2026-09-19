@@ -1,5 +1,5 @@
 ---
-title: HI
+title: Arrival of Europeans- portugeuse
 seo_title: Testing
 meta_description: testing again for the sake of testing for the site
 category: Geography
@@ -7,15 +7,21 @@ subcategory: Kerala Geography
 tags:
   - Kerala Physiography
   - Kerala Rivers
-updated: 2026-09-19
 ---
-hello baby, tesing for the sake of testing  
-  
-1. Before the Arrival of Europeans
+## hello dear
+
+### welsome welsome
 
 ### 1. Who were the foreign traders who had maritime trade relations with Kerala before the arrival of Europeans?
 
 **Answer:** The **Arabs** were the major foreign traders who traded with Kerala by sea before the arrival of the Europeans.
+
+
+| hello | yes | hdc be |
+| ------ | --- | ------ |
+| huidcb | noo | cdjc |
+|  |  |  |
+
 
 ### 2. What was the major trade route between India and Europe up to the first half of the 15th century?
 
@@ -24,6 +30,8 @@ hello baby, tesing for the sake of testing
 ### 3. What major event in 1453 affected the traditional trade route between India and Europe?
 
 **Answer:** In **1453, the Ottoman Turks conquered Constantinople**, affecting the traditional trade connections between Europe and Asia.
+
+![](</uploads/ChatGPT Image Sep 11, 2026, 06_18_28 PM.webp>)
 
 ---
 
@@ -41,6 +49,8 @@ hello baby, tesing for the sake of testing
 ### 5. Who was the Portuguese navigator who reached the southern tip of Africa, when did he reach it, and what did he name it?
 
 **Answer:** **Bartolomeu Dias** reached the southern tip of Africa in **1488** and named it the **Cape of Good Hope**.
+
+> he said he is not well bro
 
 ### 6. Why is Bartolomeu Dias important in the history of European voyages to India?
 
@@ -61,6 +71,10 @@ hello baby, tesing for the sake of testing
 ### 9. Who sent Vasco da Gama to India, and from where and when did he begin his journey?
 
 **Answer:** The Portuguese king **Dom Manuel** sent Vasco da Gama to India. He began his journey from **Lisbon in July 1497**.
+
+1. what
+2. he said that?
+3. yes broo
 
 ### 10. What were the ships that accompanied Vasco da Gama on his first voyage?
 
