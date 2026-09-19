@@ -368,3 +368,112 @@
   }
 
 }
+
+/* Rich note content */
+
+/* Tables */
+
+.table-wrap{
+  width:100%;
+  overflow-x:auto;
+  margin:26px 0 32px;
+  border:1px solid var(--line);
+  border-radius:12px;
+}
+
+.note-body table{
+  width:100%;
+  border-collapse:collapse;
+  background:#fff;
+  font-size:15px;
+}
+
+.note-body th{
+  background:var(--mint);
+  color:var(--green2);
+  font-weight:700;
+  text-align:left;
+}
+
+.note-body th,
+.note-body td{
+  padding:12px 15px;
+  border-bottom:1px solid var(--line);
+  border-right:1px solid var(--line);
+  vertical-align:top;
+}
+
+.note-body th:last-child,
+.note-body td:last-child{
+  border-right:0;
+}
+
+.note-body tbody tr:last-child td{
+  border-bottom:0;
+}
+
+
+/* Quotes */
+
+.note-body blockquote{
+  margin:26px 0;
+  padding:16px 20px;
+
+  background:var(--mint);
+  border-left:4px solid var(--green);
+  border-radius:0 10px 10px 0;
+
+  color:#40534a;
+  font-size:16px;
+  line-height:1.7;
+}
+
+.note-body blockquote p{
+  margin:0;
+}
+
+
+/* Images */
+
+.note-body img{
+  display:block;
+  width:auto;
+  max-width:100%;
+  height:auto;
+
+  margin:28px auto;
+
+  border-radius:12px;
+  border:1px solid var(--line);
+}
+
+
+/* Links inside notes */
+
+.note-body a{
+  color:var(--green);
+  text-decoration:underline;
+  text-underline-offset:2px;
+}
+
+
+/* Horizontal divider */
+
+.note-body hr{
+  border:0;
+  border-top:1px solid var(--line);
+  margin:38px 0;
+}
+
+
+/* Lists */
+
+.note-body ul,
+.note-body ol{
+  padding-left:24px;
+  margin:18px 0 26px;
+}
+
+.note-body li{
+  margin:7px 0;
+}
