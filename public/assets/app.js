@@ -22,8 +22,7 @@ if (q) {
     const search = e.target.value.toLowerCase().trim();
 
     if (search.length < 2) {
-      wrapper.innerHTML = '';
-      wrapper.classList.remove('open');
+      closeSearch();
       return;
     }
 
@@ -35,76 +34,160 @@ if (q) {
         const tags = (item.tags || []).join(' ').toLowerCase();
         const category = (item.category || '').toLowerCase();
         const subcategory = (item.subcategory || '').toLowerCase();
-        const body = (item.body || '').toLowerCase();
 
-        const haystack = [
+        /*
+         * Remove generic wording that appears everywhere.
+         * This stops "ker" matching simply because a note
+         * contains "Kerala PSC Notes".
+         */
+        const body = (item.body || '')
+          .toLowerCase()
+          .replace(/kerala psc notes/g, '')
+          .replace(/kerala psc/g, '');
+
+        const fields = [
           title,
           tags,
-          category,
           subcategory,
+          category,
           body
-        ].join(' ');
+        ];
 
-        if (!words.every(word => haystack.includes(word))) {
+        if (!words.every(word =>
+          fields.some(field => field.includes(word))
+        )) {
           return null;
         }
 
         let score = 0;
 
-        if (title.includes(search)) score += 100;
-        if (tags.includes(search)) score += 60;
-        if (subcategory.includes(search)) score += 40;
-        if (category.includes(search)) score += 30;
-        if (body.includes(search)) score += 10;
+        /* Exact/full phrase matches */
+        if (title === search) score += 1000;
+        else if (title.startsWith(search)) score += 500;
+        else if (title.includes(search)) score += 350;
 
+        if (tags.includes(search)) score += 220;
+        if (subcategory.includes(search)) score += 150;
+        if (category.includes(search)) score += 100;
+        if (body.includes(search)) score += 40;
+
+        /* Individual word matches */
         words.forEach(word => {
-          if (title.includes(word)) score += 15;
-          if (tags.includes(word)) score += 8;
+          if (title.includes(word)) score += 80;
+          if (tags.includes(word)) score += 50;
+          if (subcategory.includes(word)) score += 30;
+          if (category.includes(word)) score += 20;
+          if (body.includes(word)) score += 5;
         });
 
-        return { ...item, score };
+        return {
+          ...item,
+          score,
+          snippet: makeSnippet(item.body || '', search, words)
+        };
       })
       .filter(Boolean)
       .sort((a, b) => b.score - a.score)
-      .slice(0, 10);
+      .slice(0, 8);
 
+    renderResults(results, search);
+  });
+
+  function renderResults(results, search) {
     if (!results.length) {
       wrapper.innerHTML = `
         <div class="search-empty">
-          No notes found for "<strong>${escapeHTML(search)}</strong>"
+          No notes found for
+          "<strong>${escapeHTML(search)}</strong>"
         </div>
       `;
+
       wrapper.classList.add('open');
       return;
     }
 
     wrapper.innerHTML = results.map(item => `
       <a class="search-result" href="${item.url}">
+
         <div class="search-result-title">
           ${escapeHTML(item.title)}
         </div>
 
         <div class="search-result-meta">
           ${escapeHTML(item.category)}
-          ${item.subcategory ? ` · ${escapeHTML(item.subcategory)}` : ''}
+          ${
+            item.subcategory
+              ? ` · ${escapeHTML(item.subcategory)}`
+              : ''
+          }
         </div>
 
         ${
-          item.tags && item.tags.length
+          item.snippet
             ? `
-              <div class="search-result-tags">
-                ${item.tags.slice(0, 3).map(tag =>
-                  `<span>${escapeHTML(tag)}</span>`
-                ).join('')}
+              <div class="search-result-snippet">
+                ${escapeHTML(item.snippet)}
               </div>
             `
             : ''
         }
+
       </a>
     `).join('');
 
     wrapper.classList.add('open');
-  });
+  }
+
+  function makeSnippet(body, search, words) {
+    if (!body) return '';
+
+    /*
+     * Strip common Markdown formatting so search results
+     * don't look messy.
+     */
+    const clean = body
+      .replace(/!\[[^\]]*\]\([^)]+\)/g, '')
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      .replace(/[#*_>`~-]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const lower = clean.toLowerCase();
+
+    let position = lower.indexOf(search);
+
+    if (position === -1) {
+      for (const word of words) {
+        position = lower.indexOf(word);
+
+        if (position !== -1) break;
+      }
+    }
+
+    /*
+     * If the match was only category/tag/title,
+     * don't show a random body excerpt.
+     */
+    if (position === -1) return '';
+
+    const before = 65;
+    const after = 115;
+
+    let start = Math.max(0, position - before);
+    let end = Math.min(clean.length, position + search.length + after);
+
+    let snippet = clean.slice(start, end).trim();
+
+    if (start > 0) snippet = '…' + snippet;
+    if (end < clean.length) snippet += '…';
+
+    return snippet;
+  }
+
+  function closeSearch() {
+    wrapper.innerHTML = '';
+    wrapper.classList.remove('open');
+  }
 
   document.addEventListener('click', e => {
     if (!q.parentElement.contains(e.target)) {
