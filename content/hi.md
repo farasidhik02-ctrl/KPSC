@@ -182,6 +182,8 @@ tags:
 
 ---
 
+![](</uploads/ChatGPT Image Sep 11, 2026, 06_18_28 PM.webp>)
+
 # 9. Pero da Covilha
 
 ### 31. Which Portuguese is mentioned as having come to Kerala before Vasco da Gama?
