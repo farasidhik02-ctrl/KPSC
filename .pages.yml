@@ -292,10 +292,6 @@ content:
             - Spelling
             - Idioms
             - Abbreviations
-      - name: updated
-        label: Last Updated
-        type: date
-        required: false
       - name: body
         label: Content
         type: rich-text
