@@ -23,7 +23,7 @@ tags:
 |  |  |  |
 
 
-### 2. What was the major trade route between India and Europe up to the first half of the 15th century?
+### 2. What was the major trade route between India and Europe up to the first half of the 15th centuy?
 
 **Answer:** The **Silk Route** was the major trade route between India and Europe up to the first half of the 15th century.
 
