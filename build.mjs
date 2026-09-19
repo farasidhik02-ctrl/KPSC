@@ -560,4 +560,18 @@ function write(rel, html) {
   fs.writeFileSync(p, html);
 }
 
+const searchIndex = items.map(x => ({
+  title: x.title,
+  category: x.category,
+  subcategory: x.subcategory || '',
+  tags: x.tags || [],
+  body: x.body || '',
+  url: `/content/${x.slug}/`
+}));
+
+fs.writeFileSync(
+  path.join(out, 'search-index.json'),
+  JSON.stringify(searchIndex)
+);
+
 console.log(`Built ${items.length} content entries.`);
