@@ -10,266 +10,309 @@ subcategory: Kerala History
 tags:
   - Arrival of Europeans
 ---
-## Trade Before the Arrival of Europeans
+### 1. Who were the major foreign sea traders with Kerala before the arrival of Europeans?
 
-- Arabs were major foreign traders who traded with Kerala by sea before the arrival of Europeans.
-- The **Silk Route** was the major trade route between India and Europe up to the first half of the 15th century.
-- In **1453**, the **Ottoman Turks conquered Constantinople**.
-- This encouraged Europeans to search for a new sea route to India.Order of Arrival of Europeans in Kerala
+**Answer:**
 
-The Europeans arrived in Kerala in the following order:
+- The **Arabs** were the major foreign sea traders with Kerala before the Europeans.
+- The major trade route between India and Europe was the **Silk Route**.
+- The Silk Route remained important up to the **first half of the 15th century**.
+- In **1453**, the **Ottoman Turks conquered Constantinople**, encouraging Europeans to search for alternative sea routes to India.
+
+### 2. In what order did the major European powers arrive in Kerala by sea?
+
+**Answer:**
 
 1. **Portuguese**
 2. **Dutch**
 3. **English**
 4. **French**
 
-***Read Portuguese Arrival in Kerala Question Bank Here***
-
-## Bartolomeu Dias
-
-- **Bartolomeu Dias** was a Portuguese navigator.
-- He reached the southern tip of Africa in **1488**.
-- He named it the **Cape of Good Hope**.
-- He was the first European to sail around the southernmost tip of Africa.
-
 ![](/uploads/97cfa430-9f73-4061-8d74-32f23e3ca5f3.webp)
 
-## Vasco da Gama
+### 3. Who was Bartolomeu Dias and what was his significance?
 
-### First Voyage to India
+**Answer:**
 
-- **Vasco da Gama** was the first Portuguese captain to reach India by sea.
-- He reached **Kappad, Kozhikode, on 20 May 1498**.
-- The Portuguese were the **first Europeans to reach India by sea**.
-- Vasco da Gama was sent by **Dom Manuel, King of Portugal**.
-- He started his voyage from **Lisbon in July 1497**.
-- His ships were:
+- **Bartolomeu Dias** was a Portuguese navigator.
+- He reached the **southern tip of Africa in 1488**.
+- He named it the **Cape of Good Hope**.
+- He was the first European to sail around the southernmost tip of Africa.
+- His voyage helped open the sea route towards India.
+
+### 4. Who was Vasco da Gama and when did he first reach Kerala?
+
+**Answer:**
+
+- **Vasco da Gama** was a Portuguese navigator.
+- He was the **first Portuguese captain to reach India by sea**.
+- He reached **Kappad near Kozhikode on 20 May 1498**.
+- He was sent by **Dom Manuel, King of Portugal**.
+- He began his voyage from **Lisbon in July 1497**.
+- His ships included:
   - **São Gabriel**
   - **São Raphel**
   - **São Bariyo**
-- The **Zamorin of Calicut** received Vasco da Gama with respect.
-- However, the gifts brought by Vasco da Gama did not impress the Zamorin.
-- Despite opposition from Arab merchants, Vasco da Gama obtained a **letter of concession for trading rights**.
-- The Portuguese could not pay the required customs duties and the price of goods in gold.
-- Calicut officials temporarily detained some Portuguese agents as security for payment.
-- Vasco da Gama became angry and forcibly took some natives and **16 fishermen**.
-- He then went to **Cannanore**.
+
+### 5. What happened when Vasco da Gama first arrived at Calicut?
+
+**Answer:**
+
+- The **Zamorin of Calicut** received Vasco da Gama with traditional respect.
+- The gifts brought by Gama did not impress the Zamorin.
+- Arab merchants opposed the Portuguese presence.
+- Despite this opposition, Gama obtained a **letter of concession for trading rights**.
+- The Portuguese were unable to pay the required customs duties and the price of goods in gold.
+- Calicut officials temporarily detained Portuguese agents as security for payment.
+- Gama became angry and forcibly took some natives and **16 fishermen**.
+- He then left for **Cannanore**.
 - The **Kolathiri Raja** received him and offered trading facilities at Kannur.
-- Vasco da Gama returned to **Lisbon in 1499**.
+- Gama returned to **Lisbon in 1499**.
 
-### Second Voyage of Vasco da Gama
+### 6. What happened during Vasco da Gama's second voyage to Kerala in 1502?
 
-- Vasco da Gama returned to Kerala in **1502**.
-- He came with **15 ships and about 800 men**.
-- On his way to Cannanore, he attacked and captured Arab vessels.
+**Answer:**
+
+- Vasco da Gama returned in **1502** with **15 ships and about 800 men**.
+- He attacked and captured Arab vessels on the way to Cannanore.
 - The Zamorin offered to forget the previous Portuguese actions and take action against those responsible for the conflict.
-- Vasco da Gama demanded the **expulsion of all Arab merchants from Calicut**.
-- The Zamorin refused this demand.
-- Vasco da Gama then **bombarded Calicut**.
-- He proceeded to **Cochin**.
-- The **King of Cochin** entered into a trade agreement with him at fixed prices.
-- The ruler of **Kollam** also invited Vasco da Gama for spice trade.
-- Vasco da Gama accepted the invitation with the permission of the Cochin king.
-- On his return journey, he encountered the Zamorin's fleet but escaped without serious losses.
+- Gama demanded the **expulsion of all Arab merchants from Calicut**.
+- The Zamorin refused.
+- Gama then **bombarded Calicut**.
+- He proceeded to **Cochin**, where he made a trade agreement with the Cochin ruler at fixed prices.
+- The ruler of **Kollam** also invited Gama for spice trade.
+- Gama accepted the invitation with the permission of the Cochin king.
+- On his return, he encountered the Zamorin's fleet but escaped without serious loss.
 
-### Final Visit and Death
+### 7. What were the important facts about Vasco da Gama's final visit and death?
 
-- Vasco da Gama made his **third and final visit to Kerala in 1524**.
+**Answer:**
+
+- Gama made his **third and final visit to Kerala in 1524**.
 - He came as the **Viceroy of Portuguese India**.
 - He died on **24 December 1524**.
-- His remains were later taken to Portugal in **1539**.
+- His remains were taken to **Portugal in 1539**.
 - **Vasco da Gama** is also the name of a place in **Goa**.
 
-## Pero da Covilha
+### 8. Who was Pero da Covilha?
 
-- **Pero da Covilha** was a Portuguese who came to Kerala before Vasco da Gama, according to the traditional account in these notes.
+**Answer:**
 
-## Pedro Álvares Cabral
+- **Pero da Covilha** was a Portuguese who, according to the traditional account in the notes, came to Kerala.
+
+### 9. Who was Pedro Álvares Cabral and what did he do in Kerala?
+
+**Answer:**
 
 - **Pedro Álvares Cabral** led the **second Portuguese expedition** to India.
-- He arrived at **Kozhikode in 1500** with **six ships**.
+- He reached **Kozhikode in 1500** with **six ships**.
 - The Portuguese obtained permission to establish a **factory at Calicut**.
-- Conflict developed between the Portuguese and Arab merchants.
-- The massacre of the crew of an Arab vessel worsened the conflict.
-- Cabral was forced to move to **Cochin**.
-- The major Portuguese objectives were:
-  - Establishing a **monopoly over trade**
-  - Spreading **Christianity**
+- Conflict developed with Arab merchants.
+- After the massacre of the crew of an Arab vessel, Cabral was forced to move to **Cochin**.
+- The Portuguese objectives were:
+  - **Trade monopoly**
+  - **Spread of Christianity**
 - The Zamorins opposed these objectives.
-- The **Cochin Raja warmly received Cabral in 1500**.
-- He provided the Portuguese with trading facilities.
-- The rulers of **Quilon and Cannanore** also promised assistance.
-- Cabral later went to Cannanore.
-- The **Kolathiri Raja** helped him load cargo.
+- The **Cochin Raja warmly received Cabral in 1500** and provided trading facilities.
+- The rulers of **Quilon and Cannanore** promised assistance.
+- At Cannanore, the **Kolathiri Raja helped Cabral load cargo**.
 - Cabral eventually returned to Portugal.
 
-## João de Nova
+### 10. What is important to remember about João de Nova?
+
+**Answer:**
 
 - **João de Nova** was associated with the **Third Armada**.
 - He had advance information about the hostility of the Zamorin.
-- Therefore, he avoided Calicut.
+- Therefore, he **avoided Calicut**.
 - He landed at **Cochin and Cannanore**.
 
-## Francisco de Almeida
+### 11. Who was Francisco de Almeida and what was his major policy?
 
-- **Francisco de Almeida** was appointed the **first Viceroy of India** by the Portuguese King in **1505**.
+**Answer:**
+
+- **Francisco de Almeida** was the **first Viceroy of India**.
+- He was appointed in **1505** by the Portuguese King.
 - The **St Angelo Fort** was built in **1505**.
 - Almeida introduced the **Blue Water Policy**.
-- The main objective of the Blue Water Policy was to:
+- Its main objective was to:
   - Strengthen the Portuguese navy
   - Establish Portuguese supremacy over the **Indian Ocean**
 - Portuguese traders were killed at **Quilon**.
-- Almeida's son **Lawrence** led Portuguese troops and destroyed Calicut ships.
-- Almeida defeated the combined naval forces of:
-  - **Mamluk Burji Sultan of Egypt**
-  - **Ottoman Empire**
-  - **Zamorin of Calicut**
-  - **Sultan of Gujarat**
-- The defeat weakened the Egyptian and Ottoman presence in the Indian Ocean.
-- This helped the Portuguese establish a strong trading position in Indian waters.
+- Almeida's son **Lawrence** led Portuguese forces and destroyed Calicut ships.
 
-## Albuquerque
+### 12. Which major naval forces were defeated by Francisco de Almeida?
 
-### Major Objectives
+**Answer:**  
+Almeida defeated a joint fleet consisting of forces from:
+
+- **Mamluk Burji Sultan of Egypt**
+- **Ottoman Empire**
+- **Zamorin of Calicut**
+- **Sultan of Gujarat**
+
+The defeat weakened Egyptian and Ottoman influence in the Indian Ocean and helped the Portuguese establish a strong trading position in Indian waters.
+
+### 13. Who was Albuquerque and what were his major objectives?
+
+**Answer:**
 
 - **Albuquerque** was the **second Viceroy of Portuguese India**.
 - His major objectives were:
-  - Domination over Muslim powers
-  - Monopoly over the spice trade
+  - **Domination over Muslim powers**
+  - **Monopoly over the spice trade**
 - He fought the ruler of **Bijapur**.
 - He captured **Goa in 1510**.
-- His early actions also included an attack on **Calicut**.
+- He also attacked **Calicut** during his early period.
 
-### Peace Treaty with the Zamorin
+### 14. What were the important terms of Albuquerque's treaty with the Zamorin in 1513?
 
-- Albuquerque concluded a peace treaty with the Zamorin in **1513**.
-- Important terms included:
-  - Portuguese could construct a fort at Calicut at a place of their choice.
-  - Portuguese could conduct business through barter.
-  - The price of pepper was fixed at the same rate as in Cochin.
-  - A portion of Calicut's customs revenue would be paid to the Portuguese king as tribute.
-  - Compensation would be provided for earlier Portuguese losses.
-  - Portuguese would assist the Zamorin in wars against local rulers.
-- The treaty strengthened Portuguese diplomatic influence.
+**Answer:**  
+The **1513 treaty** included:
+
+- Portuguese could construct a **fort at Calicut** at a place of their choice.
+- Portuguese could conduct business through **barter**.
+- The price of **pepper** would be the same as at Cochin.
+- A portion of **customs revenue** would be paid to the Portuguese king as tribute.
+- Compensation would be provided for earlier Portuguese losses.
+- Portuguese would help the Zamorin in wars against local rulers.
 - The **Cochin Raja protested** against the agreement.
 
-### Reforms of Albuquerque
+### 15. What administrative and social reforms were introduced by Albuquerque?
 
-- Albuquerque recruited Indians into the Portuguese army.
-- Indians were trained in European military methods.
-- He established schools.
-- He introduced new coinage.
-- He prohibited **Sati**.
-- He maintained strict administration of justice.
+**Answer:**
+
+- Indians were recruited into the Portuguese army.
+- Indians were trained in **European military methods**.
+- Schools were established.
+- New **coinage** was introduced.
+- **Sati was prohibited**.
+- Strict administration of justice was introduced.
 - Portuguese corruption was not tolerated.
-- He encouraged marriages between Portuguese men and local women.
-- Mixed colonies were established to strengthen Portuguese power.
+- Marriages between Portuguese men and local women were encouraged.
+- **Mixed colonies** were established to strengthen Portuguese power.
 
-### Portuguese Forts and Colonies
+### 16. What are the important facts about Portuguese forts and colonies in India?
 
-- **Fort Manuel** was constructed in **1503**.
-- It is considered the earliest European fort in India in the traditional account.
+**Answer:**
+
+- **Fort Manuel** was constructed in **1503** and is traditionally described in these notes as the earliest European fort in India.
+- Major Portuguese colonies included:
+  - **Goa**
+  - **Daman and Diu**
 - **Manuel Antonio Vassalo e Silva** was the last Governor-General of Portuguese India.
-- **Goa** and **Daman and Diu** were major Portuguese colonies in India.
 
-## Kunjali Marakkars
+### 17. Who were the Kunjali Marakkars and why are they important?
 
-- The **Kunjali Marakkars** were admirals of the **Zamorin's navy**.
-- The four important Kunjali Marakkars were:
+**Answer:**
+
+- The **Kunjali Marakkars** were the **admirals of the Zamorin's navy**.
+- The four important Kunjalis were:
   1. **Kutti Ahmed Ali**
   2. **Kutti Pokker Ali**
   3. **Pattu Kunjali**
   4. **Mohammed Ali**
-- They strongly challenged Portuguese supremacy in Indian waters.
+- They challenged **Portuguese naval supremacy** in Indian waters.
+- They are particularly important for their naval resistance against the Portuguese.
 
-### Kutti Ali
+### 18. What were the important events connected with Kutti Ali and the early Kunjalis?
+
+**Answer:**
 
 - In **1524**, the Calicut fleet under **Kutti Ali** inflicted heavy damage on Portuguese vessels.
-- Kutti Ali used **small, fast and heavily armed boats**.
-- He developed a form of **sea guerrilla warfare**.
-- Portuguese commander **Henrique de Menezes** launched an expedition against Kutti Ali.
+- Kutti Ali used **small, fast, armed boats**.
+- He developed **sea guerrilla warfare**.
+- Portuguese commander **Henrique de Menezes** launched an expedition against him.
 - Several Portuguese ships were destroyed at **Ponnani**.
 - In **1525**, the Portuguese attacked **Pantalayani Kollam**, an important Kunjali stronghold.
-- Kutti Ali was killed in **1531**.
+- **Kutti Ali was killed in 1531**.
 - He was succeeded by **Kunjali II**.
+- Kunjali II reorganised the naval forces with **Pachachi Marakkar**.
 
-### Kunjali II
+### 19. What are the most important facts about Chaliyam Fort and Kunjali III?
 
-- Kunjali II reorganised the naval forces.
-- He worked with **Pachachi Marakkar**.
+**Answer:**
 
-### Kunjali III
-
+- In **1531**, the Portuguese built a fort at **Chaliyam** with the consent of the **Raja of Tanur**.
+- Chaliyam Fort helped the Portuguese re-establish their position in the region.
 - **Kunjali III captured Chaliyam Fort in 1571**.
 - Chaliyam Fort was described as **“a pistol held at the Zamorin's throat.”**
-- The fort had been built by **Nuno da Cunha**, Governor of Portuguese possessions in India from **1529 to 1538**.
+- The fort had been built by **Nuno da Cunha**, Governor of Portuguese possessions in India from **1529–1538**.
 - The headquarters of the Kunjalis was **Kottakal**.
 - After the Portuguese were expelled from Chaliyam, the Kunjalis became extremely powerful.
-- Kunjali III constructed **Marakkar Kotta at Kottakal** with the permission of the Zamorin.
+- Kunjali III built **Marakkar Kotta at Kottakal** with the permission of the Zamorin.
 
-### Kunjali IV
+### 20. What happened between Kunjali IV, the Zamorin and the Portuguese?
 
-- The Portuguese later received permission to establish a factory at **Ponnani**.
-- The Zamorin also allowed the Portuguese to establish a church there.
-- The Marakkars questioned the Zamorin's decision.
-- **Kunjali IV became the chief in 1595**.
-- He strengthened the Kottakal fortress.
+**Answer:**
+
+- The Portuguese later received permission to establish a **factory at Ponnani**.
+- The Zamorin also allowed them to establish a **church** there.
+- The Marakkars opposed these decisions.
+- **Kunjali IV became chief in 1595**.
+- He strengthened the **Kottakal fortress**.
 - He openly challenged the authority of the Zamorin.
-- The conflict between the Zamorin and Kunjali IV increased.
+- The conflict between Kunjali IV and the Zamorin increased.
 - The Portuguese supported the Zamorin and attacked Kunjali's fort.
 - Kunjali surrendered to the Zamorin on the condition that he would not be handed over to the Portuguese.
-- The Zamorin broke his promise and handed Kunjali over to the Portuguese.
-- Kunjali IV was subsequently executed by the Portuguese.
+- The Zamorin broke the promise and handed Kunjali over to the Portuguese.
+- **Kunjali IV was executed**.
 
-### Important Kunjali Marakkar Facts
+### 21. What are the important facts associated with Kunjali Marakkar in modern times?
+
+**Answer:**
 
 - **INS Kunjali** is a naval training centre at Mumbai.
 - A **Kunjali Marakkar monument** is located at Kottakal.
 - A **2000 stamp** was issued in memory of Kunjali Marakkar.
 
-## Important Treaties
+### 22. What were the important Portuguese-Zamorin treaties?
 
-### Treaty of Cannanore
+**Answer:**
 
-- The Portuguese-Zamorin treaty of **1513** is referred to in these notes as the **Treaty of Cannanore**.
+- **1513:** Treaty of **Cannanore** according to the notes.
+- **1540:** Treaty of **Ponnani**.
 
-### Treaty of Ponnani
+### 23. What were the major contributions of the Portuguese to Kerala and India?
 
-- The treaty between the Portuguese and Zamorin in **1540** is referred to as the **Treaty of Ponnani**.
+**Answer:**  
+The Portuguese introduced or popularised:
 
-## Portuguese Contributions to Kerala and India
+- **Tobacco cultivation**
+- **Pineapple**
+- **Papaya**
+- **Cashew**
+- **Tapioca**
+- **Printing press**
+- **European school**
+- **Gothic architecture**
+- **Chavittunadakam**
 
-- Introduced **tobacco cultivation** to India.
-- Established the **first printing press at Goa**.
-- Established India's first European school at **Kochi**.
-- Printing presses were established at **Kochi and Vypin**.
-- Introduced:
-  - Pineapple
-  - Papaya
-  - Cashew nut
-  - Tapioca
-- Popularised **Chavittunadakam**.
-- Introduced **Gothic architecture** during the 16th century.
+Important institutions:
 
-## Impact of Portuguese Rule in Kerala
+- First printing press at **Goa**
+- Printing presses at **Kochi and Vypin**
+- India's first European school at **Kochi**
 
-### Political Impact
+### 24. What was the political impact of Portuguese rule in Kerala?
 
-- Portuguese activities limited the power of the **Zamorin**.
-- The Zamorin was attempting to create a more centralised political structure.
-- Portuguese formed alliances with the enemies of the Zamorin.
-- Their activities increased hostility among different local rulers.
-- These political divisions later helped the **Mysore Sultans** in their conquest of Kerala.
+**Answer:**
 
-### Agricultural and Economic Impact
+- Portuguese activities **limited the power of the Zamorin**.
+- They formed alliances with the **enemies of the Zamorin**.
+- Their interventions increased hostility among local rulers.
+- These political divisions later helped the **Mysore Sultans in their conquest of Kerala**.
 
-- Portuguese encouraged agricultural development.
+### 25. What was the agricultural and economic impact of the Portuguese?
+
+**Answer:**
+
+- Portuguese encouraged agriculture.
 - They introduced scientific and innovative agricultural practices.
-- Productive varieties of coconut were imported.
+- Productive varieties of **coconut** were imported.
 - Coconut cultivation expanded.
 - The **coir trade** flourished.
-- New crops and fruits were introduced, including:
+- They introduced or popularised:
   - Papaya
   - Pineapple
   - Cashew
@@ -277,105 +320,147 @@ The Europeans arrived in Kerala in the following order:
   - Indian beans
   - Guava
 
-### Architectural Impact
+### 26. What was the architectural and military impact of Portuguese rule?
 
-- European architectural styles appeared in:
-  - Churches
-  - Residential buildings
-  - Bungalows
-- European-style bungalows became popular.
+**Answer:**
 
-### Military Impact
+**Architecture**
 
-- Europeans introduced new weapons and military technology.
-- Construction of forts became more common.
+- European architectural styles appeared in churches and residential buildings.
+- European-style **bungalows** became popular.
+
+**Military**
+
+- European weapons and military technology were introduced.
+- Construction of **forts** became more common.
 - Keralites learned the use and manufacture of:
-  - Guns
-  - Cannons
+  - **Guns**
+  - **Cannons**
 
-### Development of Towns
+### 27. What was the impact of Portuguese rule on towns and urban development?
+
+**Answer:**
 
 - Portuguese built new towns and markets.
 - **Calicut, Cochin and Chaliyam** developed.
 - Older centres such as **Kollam and Kodungalloor** declined in importance.
 
-### Religion and Education
+### 28. What were the religious and educational impacts of Portuguese rule?
+
+**Answer:**
 
 - Portuguese promoted **Roman Catholicism**.
 - Colleges were established at:
-  - Kochi
-  - Angamaly
-- Portuguese and Latin languages gained importance.
+  - **Kochi**
+  - **Angamaly**
+- **Portuguese and Latin** languages gained importance.
 - Printing presses were established at **Kochi and Vypin**.
 
-### Cultural Impact
+### 29. What was the cultural impact of Portuguese rule in Kerala?
 
-- **Chavittunadakam** developed as a cultural blend of Portuguese and Kerala traditions.
-- It shows similarities with **Kathakali**.
+**Answer:**
 
-### Portuguese Words in Malayalam
+- **Chavittunadakam** developed as a blend of Portuguese and Kerala cultural traditions.
+- It has similarities with **Kathakali**.
+- Portuguese influence also introduced European styles of dress, architecture and various objects into Kerala society.
 
-Some words associated with Portuguese influence include:
+### 30. Which Malayalam words are associated with Portuguese influence?
 
-- Lelam
-- Chavi
-- Vijagiri
-- Alamara
-- Verantha
-- Mesha
-- Chaya
-- Kasera
-- Vikari
+**Answer:**
 
-## Synod of Diamper, 1599
+Important examples include:
 
-- The **Synod of Diamper** was convened on **20 June 1599**.
+- **Lelam**
+- **Chavi**
+- **Vijagiri**
+- **Alamara**
+- **Verantha**
+- **Mesha**
+- **Chaya**
+- **Kasera**
+- **Vikari**
+
+### 31. What was the Synod of Diamper?
+
+**Answer:**
+
+- The **Synod of Diamper** was held on **20 June 1599**.
 - It was led by **Aleixo de Menezes**, the Latin-rite Archbishop of Goa.
-- The Portuguese believed that the **Pope was the supreme head of the Christian faith**.
-- The St Thomas Christians of Kerala had their own long-established traditions.
-- The Synod brought major changes to the religious practices of the **St Thomas Christians**.
+- The Portuguese considered the **Pope the supreme head of the Christian faith**.
+- The Synod imposed major changes on the **St Thomas Christians**.
 - The church language was changed from **Syriac to Latin**.
 - Around **813 representatives** participated.
 
-## Coonan Cross Revolt, 1653
+### 32. What was the Coonan Cross Revolt of 1653?
 
-- The **Coonan Cross Oath** took place on **3 January 1653**.
-- It occurred at **Mattanchery**.
-- Members of the St Thomas Christian community publicly declared that they would not submit to Portuguese domination.
+**Answer:**
+
+- The **Coonan Cross Oath** took place on **3 January 1653** at **Mattanchery**.
+- Members of the St Thomas Christian community publicly declared that they would not submit to **Portuguese domination**.
 - It became a major turning point in the relationship between the St Thomas Christians and the Portuguese.
-- One major trigger was the imprisonment of **Ahatolla**, a Syrian priest from Babylon.
-- A rumour spread that the Portuguese had murdered him at **Mylapore**.
-- This contributed to the uprising against Portuguese religious and political interference.
+- A major trigger was the imprisonment of **Ahatolla**, a Syrian priest from Babylon.
+- A rumour spread that the Portuguese had murdered Ahatolla at **Mylapore**.
+- This contributed to the revolt against Portuguese religious and political interference.
 
-## Tuhfat-ul-Mujahideen
+### 33. What is Tuhfat-ul-Mujahideen?
+
+**Answer:**
 
 - **Tuhfat-ul-Mujahideen** was written by **Zainuddin Makhdoom II**.
-- It deals with the struggle between the **Mappila Muslims of Malabar and South Canara** and Portuguese colonial forces.
-- It focuses particularly on the resistance during the **16th century**.
-- It is considered the **first historical work of Kerala authored by a Keralite**, according to the notes.
-- It describes the resistance of the **Kunjali Marakkar navy** and the **Zamorin of Calicut** against Portuguese attempts to colonise the Malabar coast.
-- The period covered is approximately **1498 to 1583**.
+- It describes the struggle between the **Mappila Muslims of Malabar and South Canara** and Portuguese colonial forces.
+- It deals particularly with the **16th-century resistance**.
+- It is considered, according to the notes, the **first historical work of Kerala authored by a Keralite**.
+- It describes the resistance of the **Kunjali Marakkar navy and the Zamorin of Calicut** against Portuguese attempts to colonise the Malabar coast.
+- It covers approximately **1498–1583**.
 - It also provides information about:
   - Chronology
   - Social life
   - Customs
   - Family structure
 
-## Decline of Portuguese Power
+### 34. Why did Portuguese power decline in Kerala and India?
 
-- Portugal was a small country and found it difficult to maintain a large overseas trading empire.
-- Portuguese activities created hostility among many native rulers.
-- Their reputation as aggressive sea powers contributed to opposition.
-- Their rigid religious policies made them unpopular among sections of the **Muslim and Hindu populations**.
-- The arrival of the **Dutch and British** created major competition.
-- The Portuguese were the **first Europeans to arrive in India by sea and among the last European powers to withdraw**.
-- Portuguese control in India finally ended with the liberation of **Goa, Daman and Diu in 1961**.
+**Answer:**  
+The major reasons included:
 
-## Operation Vijay, 1961
+- **Portugal was a small country** and found it difficult to maintain a large overseas empire.
+- Portuguese activities created hostility among native rulers.
+- Their reputation as aggressive sea powers created opposition.
+- Their **rigid religious policies** made them unpopular among sections of Hindus and Muslims.
+- The arrival of the **Dutch and British** created strong competition.
+- Portuguese power gradually declined as other European powers became stronger.
+
+### 35. What is Operation Vijay and when did Portuguese rule finally end?
+
+**Answer:**
 
 - **Operation Vijay** was the Indian military operation to end Portuguese rule in **Goa, Daman and Diu**.
 - It took place in **December 1961**.
 - The key date is **19 December 1961**.
 - Portuguese rule in these territories ended after the operation.
-- According to the notes, **V. K. Krishna Menon** described the action as a **“Police action.”**
+- According to the notes, **V. K. Krishna Menon** described it as a **“Police action.”**
+- The Portuguese were therefore the first major European power to arrive in India by sea and remained in parts of India until **1961**.
+
+## Timeline of Portuguese in Kerala
+
+- **1453** → Ottoman Turks conquered Constantinople
+- **1488** → Bartolomeu Dias → **Cape of Good Hope**
+- **1498** → Vasco da Gama → **Kappad**
+- **20 May 1498** → Vasco da Gama reached Kozhikode
+- **1500** → Pedro Álvares Cabral
+- **1505** → Francisco de Almeida → **1st Viceroy + Blue Water Policy**
+- **1510** → Albuquerque captured **Goa**
+- **1513** → Treaty of Cannanore
+- **1524** → Vasco da Gama's final visit and death
+- **1524** → Kutti Ali damaged Portuguese fleet
+- **1525** → Portuguese attacked **Pantalayani Kollam**
+- **1531** → Portuguese built **Chaliyam Fort**
+- **1571** → Kunjali III captured **Chaliyam Fort**
+- **1540** → Treaty of Ponnani
+- **1595** → Kunjali IV became chief
+- **1599** → **Synod of Diamper**
+- **1653** → **Coonan Cross Revolt**
+- **1498–1583** → Period covered in *Tuhfat-ul-Mujahideen*
+- **1961** → **Operation Vijay**
+- **19 December 1961** → End of Portuguese rule in Goa, Daman and Diu
 
