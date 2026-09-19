@@ -1,0 +1,298 @@
+media:
+  input: public/uploads
+  output: /uploads
+
+content:
+  - name: study-content
+    label: Study Content
+    type: collection
+    path: content
+    filename: "{primary}.md"
+    view:
+      fields: [title, category, subcategory]
+      primary: title
+      sort: [title]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: seo_title
+        label: SEO Title
+        type: string
+        description: "Recommended: about 50–60 characters."
+        required: true
+      - name: meta_description
+        label: Meta Description
+        type: text
+        description: "Recommended: about 140–160 characters."
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - History
+            - Geography
+            - Economics
+            - Indian Constitution
+            - Kerala Governance & Administration
+            - Life Science
+            - Physics
+            - Chemistry
+            - Arts, Literature, Culture & Sports
+            - Computer
+            - Education Policies, Acts & Commissions
+            - Current Affairs
+            - Arithmetic & Reasoning
+            - English
+            - Regional Language
+      - name: subcategory
+        label: Subcategory
+        type: select
+        description: "Use only for History, Geography and Economics."
+        options:
+          values:
+            - Kerala History
+            - Indian History
+            - World History
+            - Kerala Geography
+            - Indian Geography
+            - World & General Geography
+            - Economic Concepts
+            - Indian Economy
+            - Kerala Economy
+      - name: tags
+        label: Tags
+        type: select
+        list: true
+        options:
+          values:
+            - Arrival of Europeans
+            - Travancore
+            - Marthanda Varma
+            - Sree Chithira Thirunal
+            - Social Reform
+            - Religious Reform
+            - National Movement in Kerala
+            - Literary Sources of Kerala History
+            - United Kerala Movement
+            - Kerala After 1956
+            - British Rule
+            - First War of Independence
+            - Indian National Congress
+            - Swadeshi Movement
+            - Freedom Struggle
+            - Mahatma Gandhi
+            - State Reorganisation
+            - Indian Foreign Policy
+            - English Revolution
+            - American War of Independence
+            - French Revolution
+            - Russian Revolution
+            - Chinese Revolution
+            - Second World War
+            - United Nations
+            - International Organisations
+            - Earth Structure
+            - Atmosphere
+            - Rocks
+            - Landforms
+            - Pressure Belts & Winds
+            - Temperature & Seasons
+            - Global Warming
+            - Pollution
+            - Maps & Topographic Maps
+            - Remote Sensing
+            - GIS
+            - Oceans
+            - Continents & Countries
+            - Indian Physiography
+            - Indian States
+            - Himalayas
+            - Indian Rivers
+            - Northern Plains
+            - Peninsular Plateau
+            - Coastal Plains
+            - Indian Climate
+            - Natural Vegetation
+            - Agriculture
+            - Minerals & Industries
+            - Energy Sources
+            - Transport
+            - Kerala Physiography
+            - Kerala Districts
+            - Kerala Rivers
+            - Kerala Climate
+            - Kerala Wildlife
+            - Kerala Agriculture
+            - Research Centres
+            - Kerala Minerals & Industries
+            - Indian Economy
+            - Five Year Plans
+            - New Economic Reforms
+            - Planning Commission
+            - NITI Aayog
+            - Financial Institutions
+            - Major Crops
+            - Green Revolution
+            - Direct Taxes
+            - Indirect Taxes
+            - GST
+            - Constituent Assembly
+            - Preamble
+            - Citizenship
+            - Fundamental Rights
+            - Writs
+            - DPSP
+            - Fundamental Duties
+            - Union Executive
+            - Parliament
+            - Judiciary
+            - State Executive
+            - State Legislature
+            - Local Self Government
+            - Constitutional Amendments
+            - CAG
+            - Attorney General
+            - Advocate General
+            - Election Commission
+            - UPSC
+            - State PSC
+            - Finance Commission
+            - GST Council
+            - Union State Concurrent Lists
+            - Tribunals
+            - SC ST OBC Commissions
+            - Official Language
+            - Kerala Civil Service
+            - Quasi-Judicial Bodies
+            - Kerala Planning Board
+            - Disaster Management
+            - Watershed Management
+            - Employment & Labour
+            - Rural Employment Programmes
+            - Land Reforms
+            - Social Welfare
+            - Women Children Senior Citizens
+            - Population & Literacy
+            - E-Governance
+            - Delegated Legislation
+            - Administrative Law
+            - Natural Justice
+            - Human Body
+            - Vitamins & Minerals
+            - Deficiency Diseases
+            - Communicable Diseases
+            - Lifestyle Diseases
+            - Units & Measurements
+            - Motion & Newton's Laws
+            - Momentum & Projectile Motion
+            - ISRO & Space Missions
+            - Light
+            - Electromagnetic Spectrum
+            - Sound & Waves
+            - Force & Friction
+            - Pressure & Buoyancy
+            - Gravitation & Satellites
+            - Heat & Humidity
+            - Work Energy Power
+            - Levers
+            - Atom & Molecule
+            - States of Matter
+            - Allotropy & Gas Laws
+            - Periodic Table
+            - Metals & Non-metals
+            - Chemical Reactions
+            - Solutions Mixtures Compounds
+            - Alloys
+            - Acids Bases & pH
+            - Kerala Art Forms
+            - Sports Personalities
+            - Awards & Trophies
+            - Olympics
+            - Asian & Commonwealth Games
+            - National Games
+            - Malayalam Literary Movements
+            - Malayalam Writers & Works
+            - Pen Names
+            - Journalism in Kerala
+            - Jnanpith Award
+            - Malayalam Cinema
+            - Kerala Festivals
+            - Cultural Centres
+            - Computer Hardware
+            - Computer Software
+            - Operating Systems
+            - Office Applications
+            - Programming Basics
+            - Computer Networks
+            - Internet & WWW
+            - HTML Basics
+            - Cyber Wrongs
+            - IT Act 2000
+            - University Education Commission
+            - Secondary Education Commission
+            - UGC Act 1956
+            - Kothari Commission
+            - National Knowledge Commission
+            - NPE 1968
+            - NPE 1986
+            - Programme of Action 1992
+            - Yashpal Committee
+            - NEP 2020
+            - Numbers & Basic Operations
+            - Fractions & Decimals
+            - Percentage
+            - Profit & Loss
+            - Simple & Compound Interest
+            - Ratio & Proportion
+            - Time & Distance
+            - Time & Work
+            - Average
+            - Exponents
+            - Mensuration
+            - Progressions
+            - Series
+            - Mathematical Signs
+            - Analogy
+            - Odd Man Out
+            - Coding & Decoding
+            - Family Relations
+            - Direction Sense
+            - Clock
+            - Calendar
+            - Clerical Ability
+            - Sentences
+            - Parts of Speech
+            - Subject Verb Agreement
+            - Articles
+            - Auxiliary Verbs
+            - Question Tags
+            - Infinitives & Gerunds
+            - Tenses
+            - Prepositions
+            - Direct & Indirect Speech
+            - Active & Passive Voice
+            - Sentence Correction
+            - Degrees of Comparison
+            - Singular Plural & Gender
+            - Word Formation
+            - Compound Words
+            - Synonyms
+            - Antonyms
+            - Phrasal Verbs
+            - Foreign Words & Phrases
+            - One Word Substitutes
+            - Confusing Words
+            - Spelling
+            - Idioms
+            - Abbreviations
+      - name: body
+        label: Content
+        type: rich-text
+        required: true

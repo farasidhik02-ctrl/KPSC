@@ -1,0 +1,1 @@
+const q=document.querySelector('#search');if(q){q.addEventListener('input',e=>{const s=e.target.value.toLowerCase().trim();document.querySelectorAll('[data-search]').forEach(el=>el.style.display=el.dataset.search.includes(s)?'':'none')})}const b=document.querySelector('.mobile'),sb=document.querySelector('.sidebar');if(b&&sb)b.onclick=()=>sb.classList.toggle('open');
