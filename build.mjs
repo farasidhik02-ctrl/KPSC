@@ -97,7 +97,7 @@ function md(s) {
     /* Images */
     safe = safe.replace(
       /!\[([^\]]*)\]\(([^)]+)\)/g,
-      '<img src="$2" alt="$1" loading="lazy">'
+      '<img src="$2" alt="$1">'
     );
 
     /* Links */
