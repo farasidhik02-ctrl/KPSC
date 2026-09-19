@@ -31,7 +31,7 @@ tags:
 
 ### 3. What major event in 1453 affected the traditional trade route between India and Europe?
 
-**Answer:** In **1453, the Ottoman Turks conquered Constantinople**, affecting the traditional trade connections between Europe and Asia.
+**Answer:** In **1453, [the Ottoman Turks conquered Constantinople](https://developers.cloudflare.com/pages/get-started/git-integration/)**, affecting the traditional trade connections between Europe and Asia.
 
 ---
 
