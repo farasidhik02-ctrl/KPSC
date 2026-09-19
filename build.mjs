@@ -96,9 +96,16 @@ function md(s) {
 
     /* Images */
     safe = safe.replace(
-      /!\[([^\]]*)\]\(([^)]+)\)/g,
-      '<img src="$2" alt="$1">'
-    );
+  /!\[([^\]]*)\]\((?:&lt;)?(.*?)(?:&gt;)?\)/g,
+  (match, alt, src) => {
+    const cleanSrc = src
+      .replace(/^&lt;/, '')
+      .replace(/&gt;$/, '')
+      .trim();
+
+    return `<img src="${cleanSrc}" alt="${alt}">`;
+  }
+);
 
     /* Links */
     safe = safe.replace(
