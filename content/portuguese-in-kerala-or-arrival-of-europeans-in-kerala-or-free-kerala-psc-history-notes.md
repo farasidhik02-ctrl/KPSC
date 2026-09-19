@@ -1,6 +1,5 @@
 ---
-title: Portuguese in Kerala | Arrival of Europeans in Kerala | Free Kerala PSC
-  History Notes
+title: Portuguese in Kerala - Arrival of Europeans in Kerala | PSC Notes
 seo_title: Portuguese in Kerala | Arrival of Europeans in Kerala | Kerala PSC
   History Notes
 meta_description: Free Kerala PSC Degree Level History notes on Portuguese
