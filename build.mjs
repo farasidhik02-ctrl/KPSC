@@ -85,38 +85,239 @@ const esc = s =>
   }[c]));
 
 function md(s) {
-  return s.split(/\n\n+/).map(b => {
-    b = b.trim();
+  if (!s) return '';
 
-    if (!b) return '';
+  const lines = s.replace(/\r/g, '').split('\n');
+  let html = '';
+  let i = 0;
 
-    if (/^### /.test(b))
-      return `<h3>${esc(b.slice(4))}</h3>`;
+  const inline = text => {
+    let safe = esc(text);
 
-    if (/^## /.test(b))
-      return `<h2>${esc(b.slice(3))}</h2>`;
+    /* Images */
+    safe = safe.replace(
+      /!\[([^\]]*)\]\(([^)]+)\)/g,
+      '<img src="$2" alt="$1" loading="lazy">'
+    );
 
-    if (/^# /.test(b))
-      return `<h1>${esc(b.slice(2))}</h1>`;
+    /* Links */
+    safe = safe.replace(
+      /\[([^\]]+)\]\(([^)]+)\)/g,
+      '<a href="$2">$1</a>'
+    );
 
-    if (/^!\[/.test(b)) {
-      let m = b.match(/^!\[(.*?)\]\((.*?)\)$/s);
+    /* Bold */
+    safe = safe.replace(
+      /\*\*(.*?)\*\*/g,
+      '<strong>$1</strong>'
+    );
 
-      if (m)
-        return `<img src="${esc(m[2])}" alt="${esc(m[1])}">`;
+    /* Italic */
+    safe = safe.replace(
+      /(?<!\*)\*([^*]+)\*(?!\*)/g,
+      '<em>$1</em>'
+    );
+
+    return safe;
+  };
+
+  const isTableDivider = line =>
+    /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$/.test(line);
+
+  const tableCells = line =>
+    line
+      .trim()
+      .replace(/^\|/, '')
+      .replace(/\|$/, '')
+      .split('|')
+      .map(cell => cell.trim());
+
+  while (i < lines.length) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    /* Empty line */
+    if (!trimmed) {
+      i++;
+      continue;
     }
 
-    if (/^(- |\* )/m.test(b))
-      return '<ul>' +
-        b.split('\n')
-          .map(x => `<li>${esc(x.replace(/^[-*]\s+/, ''))}</li>`)
-          .join('') +
-        '</ul>';
+    /* Horizontal rule */
+    if (/^(-{3,}|\*{3,}|_{3,})$/.test(trimmed)) {
+      html += '<hr>';
+      i++;
+      continue;
+    }
 
-    return `<p>${esc(b)
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\n/g, '<br>')}</p>`;
-  }).join('\n');
+    /* Headings */
+    if (/^###\s+/.test(trimmed)) {
+      html += `<h3>${inline(trimmed.replace(/^###\s+/, ''))}</h3>`;
+      i++;
+      continue;
+    }
+
+    if (/^##\s+/.test(trimmed)) {
+      html += `<h2>${inline(trimmed.replace(/^##\s+/, ''))}</h2>`;
+      i++;
+      continue;
+    }
+
+    if (/^#\s+/.test(trimmed)) {
+      html += `<h1>${inline(trimmed.replace(/^#\s+/, ''))}</h1>`;
+      i++;
+      continue;
+    }
+
+    /* Markdown table */
+    if (
+      trimmed.includes('|') &&
+      i + 1 < lines.length &&
+      isTableDivider(lines[i + 1])
+    ) {
+      const headers = tableCells(line);
+
+      i += 2;
+
+      const rows = [];
+
+      while (
+        i < lines.length &&
+        lines[i].trim() &&
+        lines[i].includes('|')
+      ) {
+        rows.push(tableCells(lines[i]));
+        i++;
+      }
+
+      html += `
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                ${headers
+                  .map(cell => `<th>${inline(cell)}</th>`)
+                  .join('')}
+              </tr>
+            </thead>
+
+            <tbody>
+              ${rows.map(row => `
+                <tr>
+                  ${row
+                    .map(cell => `<td>${inline(cell)}</td>`)
+                    .join('')}
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+
+      continue;
+    }
+
+    /* Blockquote */
+    if (/^>\s?/.test(trimmed)) {
+      const quote = [];
+
+      while (
+        i < lines.length &&
+        /^>\s?/.test(lines[i].trim())
+      ) {
+        quote.push(
+          lines[i].trim().replace(/^>\s?/, '')
+        );
+
+        i++;
+      }
+
+      html += `
+        <blockquote>
+          ${quote.map(x => inline(x)).join('<br>')}
+        </blockquote>
+      `;
+
+      continue;
+    }
+
+    /* Unordered list */
+    if (/^[-*]\s+/.test(trimmed)) {
+      const list = [];
+
+      while (
+        i < lines.length &&
+        /^[-*]\s+/.test(lines[i].trim())
+      ) {
+        list.push(
+          lines[i].trim().replace(/^[-*]\s+/, '')
+        );
+
+        i++;
+      }
+
+      html += `
+        <ul>
+          ${list
+            .map(x => `<li>${inline(x)}</li>`)
+            .join('')}
+        </ul>
+      `;
+
+      continue;
+    }
+
+    /* Ordered list */
+    if (/^\d+\.\s+/.test(trimmed)) {
+      const list = [];
+
+      while (
+        i < lines.length &&
+        /^\d+\.\s+/.test(lines[i].trim())
+      ) {
+        list.push(
+          lines[i].trim().replace(/^\d+\.\s+/, '')
+        );
+
+        i++;
+      }
+
+      html += `
+        <ol>
+          ${list
+            .map(x => `<li>${inline(x)}</li>`)
+            .join('')}
+        </ol>
+      `;
+
+      continue;
+    }
+
+    /* Normal paragraph */
+    const paragraph = [trimmed];
+    i++;
+
+    while (
+      i < lines.length &&
+      lines[i].trim() &&
+      !/^#{1,3}\s+/.test(lines[i].trim()) &&
+      !/^>\s?/.test(lines[i].trim()) &&
+      !/^[-*]\s+/.test(lines[i].trim()) &&
+      !/^\d+\.\s+/.test(lines[i].trim()) &&
+      !/^(-{3,}|\*{3,}|_{3,})$/.test(lines[i].trim()) &&
+      !(
+        lines[i].includes('|') &&
+        i + 1 < lines.length &&
+        isTableDivider(lines[i + 1])
+      )
+    ) {
+      paragraph.push(lines[i].trim());
+      i++;
+    }
+
+    html += `<p>${paragraph.map(x => inline(x)).join('<br>')}</p>`;
+  }
+
+  return html;
 }
 
 function sidebar(active = '') {
