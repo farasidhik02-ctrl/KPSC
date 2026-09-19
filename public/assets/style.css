@@ -252,3 +252,77 @@
     font-size:20px;
   }
 }
+
+/* Site-wide search */
+
+.search{
+  position:relative;
+  z-index:50;
+}
+
+.site-search-results{
+  display:none;
+  position:absolute;
+  top:calc(100% + 8px);
+  left:0;
+  right:0;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:14px;
+  box-shadow:0 18px 45px rgba(18,56,43,.14);
+  max-height:480px;
+  overflow-y:auto;
+  z-index:1000;
+}
+
+.site-search-results.open{
+  display:block;
+}
+
+.search-result{
+  display:block;
+  padding:14px 16px;
+  border-bottom:1px solid var(--line);
+}
+
+.search-result:last-child{
+  border-bottom:0;
+}
+
+.search-result:hover{
+  background:var(--mint);
+}
+
+.search-result-title{
+  font-size:14px;
+  font-weight:700;
+  line-height:1.35;
+  color:var(--ink);
+}
+
+.search-result-meta{
+  margin-top:4px;
+  font-size:11px;
+  color:var(--muted);
+}
+
+.search-result-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+  margin-top:7px;
+}
+
+.search-result-tags span{
+  background:var(--mint);
+  color:var(--green2);
+  border-radius:999px;
+  padding:3px 7px;
+  font-size:10px;
+}
+
+.search-empty{
+  padding:18px;
+  font-size:13px;
+  color:var(--muted);
+}
