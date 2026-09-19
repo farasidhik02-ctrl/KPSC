@@ -27,7 +27,7 @@ tags:
 
 **Answer:** The **Silk Route** was the major trade route between India and Europe up to the first half of the 15th century.
 
-![](/uploads/proton.png)
+![](</uploads/ChatGPT Image Sep 11, 2026, 06_18_28 PM.webp>)
 
 ### 3. What major event in 1453 affected the traditional trade route between India and Europe?
 
