@@ -1,5 +1,5 @@
 ---
-title: National movement in Kerala | PSC Notes
+title: National Movement in Kerala | PSC Notes
 seo_title: National Movement in Kerala | Free Kerala PSC History Notes
 meta_description: "Free Kerala PSC Notes covering National movement in Kerala-
   Malabar, Congress and other events. These notes are useful for Degree level
