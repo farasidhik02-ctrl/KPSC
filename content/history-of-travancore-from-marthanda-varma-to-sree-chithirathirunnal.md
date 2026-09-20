@@ -1,5 +1,6 @@
 ---
-title: History of Travancore from Marthanda Varma to Sree Chithirathirunnal
+title: History of Travancore from Marthanda Varma to Sree Chithirathirunnal |
+  PSC Notes
 seo_title: History of Travancore | Free Kerala PSC History Notes
 meta_description: Free PSC notes covering history of Travancore from Marthanda
   Varma to Sree Chithirathirunnal for Kerala PSC Degree level exams including
@@ -8,6 +9,8 @@ category: History
 subcategory: Kerala History
 tags:
   - Travancore
+  - Marthanda Varma
+  - Sree Chithira Thirunal
 ---
 ### 1. Who were the rulers of Travancore and what were their periods of rule?
 
@@ -853,7 +856,6 @@ Important dates:
 - **Sree Moolam Thirunal** → 1885–1924
 - **Sethu Lakshmi Bhai** → 1924–1931
 - **Chithira Thirunal** → 1931–1949
-
 - **1723** → Treaty of Venad with British
 - **1730** → Attingal added to Travancore
 - **1741** → Battle of Colachel
