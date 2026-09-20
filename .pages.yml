@@ -31,8 +31,8 @@ content:
         description: "Recommended: about 140–160 characters."
         required: true
       - name: date
-        label: Published Date
-        type: date
+        label: Published Date & Time
+        type: date-time
         required: true
       - name: category
         label: Category
