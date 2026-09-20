@@ -49,7 +49,7 @@ Despite political separation, the people of these regions shared a common cultur
 - It included people from:
   - Malabar
   - Kochin
-  - Travancore
+  - [Travancore](https://www.keralapscnotes.qd.je/content/history-of-travancore-from-marthanda-varma-to-sree-chithirathirunnal-psc-notes/)
 
 This helped develop the idea that all Malayalam-speaking people should belong to a single state.
 
