@@ -129,31 +129,88 @@ function parse(f) {
   if (!match) return null;
 
   const data = {};
-  let key = '';
+  const frontMatter = match[1].split('\n');
 
-  for (const line of match[1].split('\n')) {
+  let key = '';
+  let collectingTags = false;
+
+  for (const line of frontMatter) {
+
+    /* Normal YAML field */
     const field = line.match(
       /^([\w_]+):\s*(.*)$/
     );
 
     if (field) {
       key = field[1];
+      collectingTags = key === 'tags';
 
-      data[key] = field[2]
-        .replace(/^['"]|['"]$/g, '');
-
-      if (key === 'tags') {
+      if (collectingTags) {
         data.tags = [];
+      } else {
+        data[key] = field[2]
+          .replace(/^['"]|['"]$/g, '')
+          .trim();
       }
-    } else if (
-      /^\s*-\s+/.test(line) &&
-      key === 'tags'
+
+      continue;
+    }
+
+    /* Tag list items */
+    if (
+      collectingTags &&
+      /^\s*-\s+/.test(line)
     ) {
       data.tags.push(
         line
           .replace(/^\s*-\s+/, '')
           .replace(/^['"]|['"]$/g, '')
+          .trim()
       );
+
+      continue;
+    }
+
+    /*
+       Multiline YAML value created by Pages CMS.
+
+       Example:
+
+       title: History of Travancore |
+         PSC Notes
+    */
+    if (
+      key &&
+      !collectingTags &&
+      /^\s+/.test(line) &&
+      line.trim()
+    ) {
+      data[key] = `${
+        data[key] || ''
+      } ${line.trim()}`.trim();
+    }
+  }
+
+  /*
+     Pages CMS may wrap a long value using YAML's
+     "|" marker at the end of the first line.
+
+     In our content this is only a wrapping marker,
+     so remove it before joining the continuation.
+  */
+
+  for (const field of [
+    'title',
+    'seo_title',
+    'meta_description',
+    'category',
+    'subcategory',
+    'date'
+  ]) {
+    if (typeof data[field] === 'string') {
+      data[field] = data[field]
+        .replace(/\s*\|\s+/g, ' | ')
+        .trim();
     }
   }
 
