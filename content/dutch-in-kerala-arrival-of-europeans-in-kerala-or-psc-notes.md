@@ -147,7 +147,7 @@ tags:
 **Answer:**
 
 - During the subsequent meeting, **Van Imhoff threatened war** if Travancore did not accept the Dutch terms.
-- Marthanda Varma reportedly laughed off the threat.
+- [Marthanda Varma](https://www.keralapscnotes.qd.je/content/history-of-travancore-from-marthanda-varma-to-sree-chithirathirunnal/) reportedly laughed off the threat.
 - He stated that even if the Dutch defeated him, he would one day invade the **Netherlands and Europe itself with fishing boats**.
 - The negotiations eventually broke down.
 - War became inevitable.
@@ -160,7 +160,7 @@ tags:
 - Dutch troops from **Ceylon** were deployed.
 - The Dutch and their allies initially achieved several victories.
 - They forced the Travancore army at **Kollam** to retreat.
-- The **British East India Company**, concerned about the growing power of Travancore, supported the Dutch.
+- The **British East India Company**, concerned about the [growing power of Travancore](https://www.keralapscnotes.qd.je/content/history-of-travancore-from-marthanda-varma-to-sree-chithirathirunnal/), supported the Dutch.
 - The British East India Company had been founded on **31 December 1600**.
 - The British sent **150 men** to supplement the Dutch forces.
 - The combined Dutch army then marched towards **Attingal**.
