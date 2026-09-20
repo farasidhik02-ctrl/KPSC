@@ -30,6 +30,10 @@ content:
         type: text
         description: "Recommended: about 140–160 characters."
         required: true
+      - name: date
+        label: Published Date
+        type: date
+        required: true
       - name: category
         label: Category
         type: select
