@@ -691,15 +691,80 @@ function nav(active = '') {
   `;
 }
 
-function articleSidebar(active = '') {
-  return `
-    <aside class="article-sidebar">
+/* =========================================================
+   RECENTLY ADDED NOTES
+   ========================================================= */
 
-      <div class="article-sidebar-title">
-        Categories
+function recentNotesBox(excludeSlug = '') {
+  const recentItems = [...items]
+    .filter(x => x.slug !== excludeSlug)
+    .sort((a, b) => {
+      const aDate = a.date
+        ? new Date(a.date).getTime()
+        : 0;
+
+      const bDate = b.date
+        ? new Date(b.date).getTime()
+        : 0;
+
+      return bDate - aDate;
+    })
+    .slice(0, 5);
+
+  const notes = recentItems.length
+    ? recentItems
+        .map(
+          x => `
+            <a
+              class="recent-note"
+              href="/content/${x.slug}/"
+            >
+
+              <div class="recent-note-title">
+                ${esc(x.title)}
+              </div>
+
+              ${
+                (x.tags || []).length
+                  ? `
+                    <div class="recent-note-tags">
+
+                      ${(x.tags || [])
+                        .map(
+                          t =>
+                            `<span class="tag">${esc(t)}</span>`
+                        )
+                        .join('')}
+
+                    </div>
+                  `
+                  : ''
+              }
+
+            </a>
+          `
+        )
+        .join('')
+    : `
+        <div class="recent-notes-empty">
+          New notes will appear here.
+        </div>
+      `;
+
+  return `
+    <aside class="recent-notes-box">
+
+      <div class="recent-notes-heading">
+        Recently Added Notes
       </div>
 
-      ${nav(active)}
+      <p class="recent-notes-intro">
+        Latest study notes for Kerala PSC.
+      </p>
+
+      <div class="recent-notes-list">
+        ${notes}
+      </div>
 
     </aside>
   `;
@@ -768,7 +833,8 @@ function shell({
     name="viewport"
     content="width=device-width,initial-scale=1"
   >
-    <!-- Google tag (gtag.js) -->
+
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S50QTXPT9M"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -889,6 +955,15 @@ function articleShell({
     content="width=device-width,initial-scale=1"
   >
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S50QTXPT9M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S50QTXPT9M');
+  </script>
+
   ${seoHead({
     title,
     description,
@@ -984,60 +1059,70 @@ const homeBody = `
 
 </section>
 
-<div class="section-head">
+<div class="home-content-layout">
 
-  <div>
+  <section class="home-subjects">
 
-    <h2>
-      Browse Subjects
-    </h2>
+    <div class="section-head">
 
-    <p>
-      Study topic by topic.
-    </p>
+      <div>
 
-  </div>
+        <h2>
+          Browse Subjects
+        </h2>
 
-</div>
+        <p>
+          Study topic by topic.
+        </p>
 
-<div class="grid">
+      </div>
 
-  ${cats
-    .map(c => {
-      const count = items.filter(
-        x => x.category === c
-      ).length;
+    </div>
 
-      return `
-        <a
-          class="card"
-          href="/category/${slug(c)}/"
-          data-search="${esc(
-            c.toLowerCase()
-          )}"
-        >
+    <div class="grid home-subject-grid">
 
-          <div class="icon">
-            ${esc(c.charAt(0))}
-          </div>
+      ${cats
+        .map(c => {
+          const count = items.filter(
+            x => x.category === c
+          ).length;
 
-          <h3>
-            ${esc(c)}
-          </h3>
+          return `
+            <a
+              class="card"
+              href="/category/${slug(c)}/"
+              data-search="${esc(
+                c.toLowerCase()
+              )}"
+            >
 
-          <p>
-            Study notes and revision material.
-          </p>
+              <div class="icon">
+                ${esc(c.charAt(0))}
+              </div>
 
-          <div class="count">
-            ${count}
-            ${count === 1 ? 'note' : 'notes'}
-          </div>
+              <h3>
+                ${esc(c)}
+              </h3>
 
-        </a>
-      `;
-    })
-    .join('')}
+              <p>
+                Study notes and revision material.
+              </p>
+
+              <div class="count">
+                ${count}
+                ${count === 1 ? 'note' : 'notes'}
+              </div>
+
+            </a>
+          `;
+        })
+        .join('')}
+
+    </div>
+
+  </section>
+
+  ${recentNotesBox()}
 
 </div>
 `;
@@ -1464,9 +1549,7 @@ for (const x of items) {
 
             </article>
 
-            ${articleSidebar(
-              x.category
-            )}
+            ${recentNotesBox(x.slug)}
 
           </div>
 
@@ -1475,7 +1558,6 @@ for (const x of items) {
     })
   );
 }
-
 /* =========================================================
    ABOUT PAGE
    ========================================================= */
