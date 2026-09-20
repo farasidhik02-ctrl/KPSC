@@ -9,12 +9,12 @@ content:
     path: content
     filename: "{primary}.md"
     view:
-      fields: [title, category, subcategory]
+      fields: [title, date, category, subcategory]
       primary: title
-      sort: [title]
+      sort: [date, title]
       default:
-        sort: title
-        order: asc
+        sort: date
+        order: desc
     fields:
       - name: title
         label: Title
