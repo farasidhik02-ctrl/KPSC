@@ -681,9 +681,9 @@ function seoHead({
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: SITE_NAME,
-  url: `${SITE_URL}/`,
-  description: HOME_DESCRIPTION
+  name: 'Kerala PSC Notes',
+  alternateName: 'Kerala PSC Notes',
+  url: 'https://www.keralapscnotes.qd.je/'
 };
 
 /* =========================================================
