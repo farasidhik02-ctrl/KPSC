@@ -890,6 +890,8 @@ function shell({
     name="viewport"
     content="width=device-width,initial-scale=1"
   >
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="shortcut icon" href="/favicon.svg">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S50QTXPT9M"></script>
@@ -1011,6 +1013,8 @@ function articleShell({
     name="viewport"
     content="width=device-width,initial-scale=1"
   >
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="shortcut icon" href="/favicon.svg">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S50QTXPT9M"></script>
