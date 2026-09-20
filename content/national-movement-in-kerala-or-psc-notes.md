@@ -648,7 +648,7 @@ Important CSP leaders in Kerala:
 
 - Year: **1946**
 - Described in the notes as a mass communist movement.
-- Directed against **C.P. Ramaswami Iyer**, the Diwan of Travancore.
+- Directed against **C.P. Ramaswami Iyer**, the Diwan of [Travancore](https://www.keralapscnotes.qd.je/content/history-of-travancore-from-marthanda-varma-to-sree-chithirathirunnal-psc-notes/).
 - Location: **Alappuzha**.
 
 Other event:
