@@ -24,7 +24,7 @@ tags:
 **Answer:**
 
 1. **Portuguese**
-2. **Dutch**
+2. **[Dutch](https://www.keralapscnotes.qd.je/content/dutch-in-kerala-arrival-of-europeans-in-kerala-psc-notes/)**
 3. **English**
 4. **French**
 
@@ -427,7 +427,7 @@ The major reasons included:
 - Portuguese activities created hostility among native rulers.
 - Their reputation as aggressive sea powers created opposition.
 - Their **rigid religious policies** made them unpopular among sections of Hindus and Muslims.
-- The arrival of the **Dutch and British** created strong competition.
+- The [arrival of the **Dutch**](https://www.keralapscnotes.qd.je/content/dutch-in-kerala-arrival-of-europeans-in-kerala-psc-notes/) <strong>and British</strong> created strong competition.
 - Portuguese power gradually declined as other European powers became stronger.
 
 ### 35. What is Operation Vijay and when did Portuguese rule finally end?
